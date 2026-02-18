@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Streaming Text</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "JetBrains Mono", monospace;
+        font-optical-sizing: auto;
+      }
+
+      html,
+      body {
+        background: #faebd7;
+        color: #3c2c28;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      .wrapper {
+        margin: 3rem auto 6rem;
+        max-width: 580px;
+      }
+
+      h1,
+      h2 {
+        color: #c7391f;
+      }
+
+      h2 {
+        border-bottom: solid 1px #3c2c28;
+        padding: 1rem 0;
+        margin-top: 3rem;
+      }
+
+      pre {
+        background: #ffd7c2;
+        margin: 0 0 2rem;
+        padding: 1.2rem;
+      }
+
+      code {
+        background: #ffd7c2;
+        display: inline-block;
+        padding: 0.2rem 0.4rem;
+      }
+
+      button {
+        appearance: none;
+        background: #3c2c28;
+        border: none;
+        color: #faebd7;
+        cursor: pointer;
+        padding: 0.8rem 1.4rem;
+      }
+
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      span {
+        animation: fade-in 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.jsx"></script>
+  </body>
+</html>
