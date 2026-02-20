@@ -1,6 +1,6 @@
 {
   "name": "react-streaming-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component to create streaming text",
   "license": "ISC",
   "author": "Ian Turner",
