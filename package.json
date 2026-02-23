@@ -1,7 +1,19 @@
 {
   "name": "react-streaming-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component to create streaming text",
+  "keywords": [
+    "react",
+    "streaming",
+    "text",
+    "headless",
+    "typewriter",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itrnr/react-streaming-text.git"
+  },
   "license": "ISC",
   "author": "Ian Turner",
   "type": "module",
